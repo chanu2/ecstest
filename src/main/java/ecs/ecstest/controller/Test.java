@@ -11,18 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class Test {
 
-    private final EntityManager em;
-
-
     @GetMapping("/test")
     public String test1(){
         return "hi my name is chanwoo ";
     }
 
-    @PostMapping("/init")
-    public void init(){
-
-
-    }
 
 }
